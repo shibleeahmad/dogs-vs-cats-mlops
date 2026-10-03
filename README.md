@@ -17,7 +17,7 @@ Dogs vs Cats image classification.
 | Member | Role |
 |---|---|
 | Ahmad Shiblee | Model Owner |
-| Team Member 2 | Data Owner |
+| Muhammad Noman Shamim | Data Owner |
 
 ## Dataset
 
