@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Data
+data/raw/*
+data/processed/*
+
+# Models
+models/*
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# ML experiment tracking
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# DVC cache
+.dvc/cache/
