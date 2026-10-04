@@ -5,11 +5,15 @@ data:
   train_dir: data/raw/dogs_vs_cats_subset/train
   val_dir: data/raw/dogs_vs_cats_subset/val
   test_dir: data/raw/dogs_vs_cats_subset/test
-
+ 
 model:
   type: svm
   kernel: rbf
+HEAD
   C: 1.0
+
+
+exp/shiblee-conflict
   gamma: scale
 
 features:
