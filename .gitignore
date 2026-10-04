@@ -14,9 +14,7 @@ env/
 
 # Data
 data/raw/*
-!data/raw/*.dvc
 data/processed/*
-!data/processed/*.dvc
 
 # Models
 models/*
