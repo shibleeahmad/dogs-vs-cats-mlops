@@ -9,7 +9,7 @@ data:
 model:
   type: svm
   kernel: rbf
-  C: 1.0
+  C: 2.0
   gamma: scale
 
 features:
