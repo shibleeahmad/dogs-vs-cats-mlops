@@ -1,0 +1,8 @@
+[core]
+    remote = dagshub
+[cache]
+    type = copy
+['remote "gdrive_remote"']
+    url = gdrive://13RFggplzMDqf6l2T9RmJJtNS5P9aAXh2
+['remote "dagshub"']
+    url = https://dagshub.com/shibleeahmad/dogs-vs-cats-mlops.dvc

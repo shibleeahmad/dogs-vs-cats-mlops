@@ -1,0 +1,6 @@
+outs:
+- md5: e22f7c4da598ec166a62a9dcc8577d28.dir
+  size: 29571089
+  nfiles: 1301
+  hash: md5
+  path: dogs_vs_cats_subset
