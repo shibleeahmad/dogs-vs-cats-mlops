@@ -40,3 +40,4 @@ Thumbs.db
 
 # DVC cache
 .dvc/cache/
+/metrics.json
