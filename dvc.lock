@@ -10,7 +10,7 @@ stages:
       nfiles: 1301
     - path: params.yaml
       hash: md5
-      md5: fbab06563466b5de863e4fea705a63aa
+      md5: 99716ff66b2f29bd82d981c24c476d6d
       size: 318
     - path: src/train.py
       hash: md5
@@ -22,16 +22,16 @@ stages:
         features.cells_per_block: 2
         features.orientations: 9
         features.pixels_per_cell: 8
-        model.C: 0.1
+        model.C: 1.0
         model.gamma: scale
         model.kernel: rbf
         seed: 42
     outs:
     - path: metrics.json
       hash: md5
-      md5: 5f21b80203aaa87893e841e70aa8331a
-      size: 58
+      md5: 8008355b09f758dcc6da1f848c3f7fad
+      size: 60
     - path: models/model.joblib
       hash: md5
-      md5: c81f69c299fd59a8ec3c228dab068967
-      size: 14133723
+      md5: 0d1d4edf23fd21274a797be1e361c9a3
+      size: 12861835
