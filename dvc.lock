@@ -1,0 +1,37 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/raw/dogs_vs_cats_subset
+      hash: md5
+      md5: e22f7c4da598ec166a62a9dcc8577d28.dir
+      size: 29571089
+      nfiles: 1301
+    - path: params.yaml
+      hash: md5
+      md5: 99716ff66b2f29bd82d981c24c476d6d
+      size: 318
+    - path: src/train.py
+      hash: md5
+      md5: 81ee9f01eff3a98b4ff7dc326d54d3b3
+      size: 2617
+    params:
+      params.yaml:
+        data.image_size: 64
+        features.cells_per_block: 2
+        features.orientations: 9
+        features.pixels_per_cell: 8
+        model.C: 1.0
+        model.gamma: scale
+        model.kernel: rbf
+        seed: 42
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: 8008355b09f758dcc6da1f848c3f7fad
+      size: 60
+    - path: models/model.joblib
+      hash: md5
+      md5: 0d1d4edf23fd21274a797be1e361c9a3
+      size: 12861835

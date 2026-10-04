@@ -14,7 +14,9 @@ env/
 
 # Data
 data/raw/*
+!data/raw/*.dvc
 data/processed/*
+!data/processed/*.dvc
 
 # Models
 models/*
@@ -38,3 +40,4 @@ Thumbs.db
 
 # DVC cache
 .dvc/cache/
+/metrics.json
