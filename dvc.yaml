@@ -1,0 +1,20 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - params.yaml
+      - data/raw/dogs_vs_cats_subset
+    params:
+      - seed
+      - data.image_size
+      - model.kernel
+      - model.C
+      - model.gamma
+      - features.pixels_per_cell
+      - features.cells_per_block
+      - features.orientations
+    outs:
+      - models/model.joblib
+    metrics:
+      - metrics.json
